@@ -46,7 +46,7 @@ body {
 #centre-about {
     padding-top:30px;
     margin: 0 auto;
-    background-color: green;
+    background-color:;
     width:33%;
 }
 
@@ -80,6 +80,28 @@ body {
 
 .right-about-heading p {
     text-align:right;
+}
+
+#welcome {
+    text-align:center;
+    margin:20px 0;
+    font-size:280%;
+}
+
+#circle-container {
+    width:300px;
+    height:300px;
+    padding:30px;
+    border-style:solid;
+    border-color:#ccc;
+    border-width:1px;
+    border-radius:50%;
+}
+
+#circle-cover-bg { 
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    height:100%;
+    border-radius:50%;
 }
 
 /* Headings and logo */
