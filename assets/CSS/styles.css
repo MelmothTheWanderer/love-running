@@ -12,6 +12,26 @@ body {
     color:#3a3a3a
 }
 
+#cover-text {
+    font-size:132%;
+    font-family:"Oswald", sans-serif;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    width:300px;
+    height:200px;
+    padding-top:40px;
+    padding-left:10px;
+    background-color: rgba(241,109,107,.7);
+    position:absolute;
+    right:150px;
+    bottom:30px;
+}
+
+#cover-text, #cover-text h2 {
+    color:white;
+}
+
+
 /* Headings and logo */
 
 h1, h2 {
@@ -36,6 +56,7 @@ h1, h2 {
     height:600px;
     width:100%;
     overflow: hidden;
+    position:relative;
     
 }
 
