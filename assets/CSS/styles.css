@@ -46,14 +46,12 @@ body {
 #centre-about {
     padding-top:30px;
     margin: 0 auto;
-    background-color:;
     width:33%;
 }
 
 #right-about {
     padding-top: 30px;
     margin: 0 auto;
-    background-color: ;
     width:33%;
     float:right;
 }
@@ -104,6 +102,7 @@ body {
     height:100%;
     border-radius:50%;
 }
+
 
 /* Headings and logo */
 
@@ -185,4 +184,15 @@ hr {
 
 #menu a:hover {
     border-bottom:1px solid #3a3a3a;
+}
+
+/* the background for the times for meetup */
+
+#times {
+    background:url(../images/dublin-city.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    overflow: hidden;
 }
