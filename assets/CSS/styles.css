@@ -243,3 +243,17 @@ footer {
     color:#3a3a3a;
 
 }
+
+/* gallery */
+
+#photos {
+    clear:both;
+    line-height:30px;
+    column-count: 4;
+    column-gap: 1;
+
+}
+
+#photos img {
+    width: 100%;
+}
