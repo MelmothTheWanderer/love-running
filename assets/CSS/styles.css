@@ -251,6 +251,7 @@ footer {
     line-height:30px;
     column-count: 4;
     column-gap: 1;
+    padding: 0 30px ;
 
 }
 
@@ -298,7 +299,11 @@ footer {
         clear:both;
         height:150px;
         padding:0;
-        
+
+    }
+
+    #photos {
+        column-count:3;
     }
 
 }
@@ -338,4 +343,12 @@ footer {
         text-align:center;
         padding:0 20px;
 
+}
+
+/* mobile design for the gallery */ 
+
+@media screen and (max-width:800px) {
+    #photos {
+        column-count:2;
+    }
 }
