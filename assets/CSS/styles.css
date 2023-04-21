@@ -260,7 +260,7 @@ footer {
 
 /* media queries */ 
 
-/* Media queries for tablet sized screens */
+/* Media queries for tablet sized screens and below*/
 
 
 @media screen and (max-width: 1200px) {
@@ -291,6 +291,14 @@ footer {
 
     hr {
         display:none;
+    }
+
+    #times > div {
+        width: 100%;
+        clear:both;
+        height:150px;
+        padding:0;
+        
     }
 
 }
